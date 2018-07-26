@@ -1,0 +1,42 @@
+
+.modal-body{
+    background-color: #fbf4f6;
+    position: relative;
+    height:340px;
+    text-align: center;
+}
+
+
+.productCont{
+    box-shadow: 2px 2px 2px -3px #d8d8d8;
+    left:0;
+}
+
+.countBtn{
+    font-size:16px;
+    position: relative;
+    right:10px;
+}
+.minus,.add{
+    border: 1px solid #888;
+    width:25px;
+    height:25px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.minus{
+    position: relative;
+    right:10px;
+}
+.add{
+    position: relative;
+    left:10px
+}
+.count_warning{
+    font-size: 10px;
+    color: red;
+    position: relative;
+    right: 20px;
+}
